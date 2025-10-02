@@ -27,7 +27,7 @@ app.get('/users', async (req, res, next) => {
 
 app.get('/', (req, res) => {
   text = "Hello from backend! use /ping to test connection, /users to query DB"
-  res.send('Hello from backend!');
+  res.send(text);
 });
 
 
